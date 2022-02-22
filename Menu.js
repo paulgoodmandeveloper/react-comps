@@ -4,7 +4,11 @@ const Menu = () => {
         <div className='menu-navigation'>
           <nav>
             <ul>
-              <li>Item</li>
+              {linksContent.links.map((item) => (
+                <li>
+                  <a href={item.url}>{item.title}</a>
+                </li>
+              ))}
             </ul>
           </nav>
         </div>
