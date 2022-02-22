@@ -1,4 +1,5 @@
 const Menu = () => {
+    console.log(linksContent.links);
     return (
         <h2>Menu</h2>
     );
