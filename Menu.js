@@ -1,7 +1,13 @@
 const Menu = () => {
     console.log(linksContent.links);
     return (
-        <h2>Menu</h2>
+        <div className='menu-navigation'>
+          <nav>
+            <ul>
+              <li>Item</li>
+            </ul>
+          </nav>
+        </div>
     );
 };
 
